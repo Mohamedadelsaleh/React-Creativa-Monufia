@@ -6,6 +6,12 @@ import CardJsx from './Components/JSXExample/JSXExample'
 import Greating from './Components/WithoutJSX/WithoutJSX'
 import Hello from './Components/PropsExample/PropsExample';
 import StateExample from './Components/StateExample/StateExample';
+import DistructingEx from './Components/DistructingExample/DistructingExample';
+import DistructingClassExample from './Components/DistructingClassExample/DistructingClassExample';
+import EventHandleExample from './Components/EventHandleExample/EventHandleExample';
+import EventHandleClassExample from './Components/EventHandleClassExample/EventHandleClassExample';
+import HandlingBindOfThis from './Components/HandlingBindOfThis/HandlingBindOfThis';
+import ConditionalRenedering from './Components/ConditionalRenedering/ConditionalRenedering';
 
 function App() {
   return (
@@ -19,8 +25,17 @@ function App() {
             <span> Has 1 span</span>
         </Hello>
         <Hello fname= 'Eman'/>
-        <Hello fname= 'Anas' lname= 'Ahmed'/>*/}
+        <Hello fname= 'Anas' lname= 'Ahmed'/>
         <StateExample />
+        <DistructingEx fname="Taha" lname="Ibraheem" />
+        <DistructingEx fname="Eman" lname="Khaled"/>
+        <DistructingEx fname="Yousef" lname="Mohamed"/>
+        <DistructingClassExample fname="Taha" lname="Ibraheem" age={25} />
+        <EventHandleExample />
+        <EventHandleClassExample /> 
+        <HandlingBindOfThis /> */}
+        <ConditionalRenedering />
+
 
     </div>
   );
