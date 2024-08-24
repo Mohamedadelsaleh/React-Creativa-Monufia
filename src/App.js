@@ -12,6 +12,8 @@ import EventHandleExample from './Components/EventHandleExample/EventHandleExamp
 import EventHandleClassExample from './Components/EventHandleClassExample/EventHandleClassExample';
 import HandlingBindOfThis from './Components/HandlingBindOfThis/HandlingBindOfThis';
 import ConditionalRenedering from './Components/ConditionalRenedering/ConditionalRenedering';
+import ListRenderingExample from './Components/ListRenderingExample/ListRenderingExample';
+import FromHandling from './Components/FormHandling/FormHandling';
 
 function App() {
   return (
@@ -33,9 +35,10 @@ function App() {
         <DistructingClassExample fname="Taha" lname="Ibraheem" age={25} />
         <EventHandleExample />
         <EventHandleClassExample /> 
-        <HandlingBindOfThis /> */}
-        <ConditionalRenedering />
-
+        <HandlingBindOfThis /> 
+        <ConditionalRenedering /> 
+        <ListRenderingExample />*/}
+        <FromHandling />
 
     </div>
   );
