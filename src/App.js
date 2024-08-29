@@ -14,6 +14,8 @@ import HandlingBindOfThis from './Components/HandlingBindOfThis/HandlingBindOfTh
 import ConditionalRenedering from './Components/ConditionalRenedering/ConditionalRenedering';
 import ListRenderingExample from './Components/ListRenderingExample/ListRenderingExample';
 import FromHandling from './Components/FormHandling/FormHandling';
+import GETExample from './Components/HttpRequests/GETExample/GETExample';
+import POSTExample from './Components/HttpRequests/POSTExample/POSTExample';
 
 function App() {
   return (
@@ -37,9 +39,11 @@ function App() {
         <EventHandleClassExample /> 
         <HandlingBindOfThis /> 
         <ConditionalRenedering /> 
-        <ListRenderingExample />*/}
-        <FromHandling />
-
+        <ListRenderingExample />
+        <FromHandling /> 
+        <GETExample /> */}
+        <POSTExample />
+        
     </div>
   );
 }
