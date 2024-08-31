@@ -1,21 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-import FunctionalComponentArrow from './Components/FunctionalComponent/FuctionalComponent';
-import ClassComponent from './Components/ClassComponent/ClassComponent';
-import CardJsx from './Components/JSXExample/JSXExample'
+import FunctionalComponentArrow from './Components/ClassCompnents/FunctionalComponent/FuctionalComponent';
+import ClassComponent from './Components/ClassCompnents/ClassComponent/ClassComponent';
+import CardJsx from './Components/ClassCompnents/JSXExample/JSXExample'
 import Greating from './Components/WithoutJSX/WithoutJSX'
-import Hello from './Components/PropsExample/PropsExample';
-import StateExample from './Components/StateExample/StateExample';
-import DistructingEx from './Components/DistructingExample/DistructingExample';
-import DistructingClassExample from './Components/DistructingClassExample/DistructingClassExample';
-import EventHandleExample from './Components/EventHandleExample/EventHandleExample';
+import Hello from './Components/ClassCompnents/PropsExample/PropsExample';
+import StateExample from './Components/ClassCompnents/StateExample/StateExample';
+import DistructingEx from './Components/ClassCompnents/DistructingExample/DistructingExample';
+import DistructingClassExample from './Components/ClassCompnents/DistructingClassExample/DistructingClassExample';
+import EventHandleExample from './Components/ClassCompnents/EventHandleExample/EventHandleExample';
 import EventHandleClassExample from './Components/EventHandleClassExample/EventHandleClassExample';
-import HandlingBindOfThis from './Components/HandlingBindOfThis/HandlingBindOfThis';
+import HandlingBindOfThis from './Components/ClassCompnents/HandlingBindOfThis/HandlingBindOfThis';
 import ConditionalRenedering from './Components/ConditionalRenedering/ConditionalRenedering';
-import ListRenderingExample from './Components/ListRenderingExample/ListRenderingExample';
-import FromHandling from './Components/FormHandling/FormHandling';
-import GETExample from './Components/HttpRequests/GETExample/GETExample';
-import POSTExample from './Components/HttpRequests/POSTExample/POSTExample';
+import ListRenderingExample from './Components/ClassCompnents/ListRenderingExample/ListRenderingExample';
+import FromHandling from './Components/ClassCompnents/FormHandling/FormHandling';
+import GETExample from './Components/ClassCompnents/HttpRequests/GETExample/GETExample';
+import POSTExample from './Components/ClassCompnents/HttpRequests/POSTExample/POSTExample';
 
 function App() {
   return (
@@ -41,8 +41,8 @@ function App() {
         <ConditionalRenedering /> 
         <ListRenderingExample />
         <FromHandling /> 
-        <GETExample /> */}
-        <POSTExample />
+        <GETExample /> 
+        <POSTExample /> */}
         
     </div>
   );
