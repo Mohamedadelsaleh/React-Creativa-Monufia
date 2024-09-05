@@ -1,21 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import FunctionalComponentArrow from './Components/ClassCompnents/FunctionalComponent/FuctionalComponent';
-import ClassComponent from './Components/ClassCompnents/ClassComponent/ClassComponent';
-import CardJsx from './Components/ClassCompnents/JSXExample/JSXExample'
-import Greating from './Components/WithoutJSX/WithoutJSX'
-import Hello from './Components/ClassCompnents/PropsExample/PropsExample';
-import StateExample from './Components/ClassCompnents/StateExample/StateExample';
-import DistructingEx from './Components/ClassCompnents/DistructingExample/DistructingExample';
-import DistructingClassExample from './Components/ClassCompnents/DistructingClassExample/DistructingClassExample';
-import EventHandleExample from './Components/ClassCompnents/EventHandleExample/EventHandleExample';
-import EventHandleClassExample from './Components/EventHandleClassExample/EventHandleClassExample';
-import HandlingBindOfThis from './Components/ClassCompnents/HandlingBindOfThis/HandlingBindOfThis';
-import ConditionalRenedering from './Components/ConditionalRenedering/ConditionalRenedering';
-import ListRenderingExample from './Components/ClassCompnents/ListRenderingExample/ListRenderingExample';
-import FromHandling from './Components/ClassCompnents/FormHandling/FormHandling';
-import GETExample from './Components/ClassCompnents/HttpRequests/GETExample/GETExample';
-import POSTExample from './Components/ClassCompnents/HttpRequests/POSTExample/POSTExample';
+import StateWithClass from './Components/HooksComponents/UseStateExamples/StateWithClass/StateWithClass';
+import StateWithHooks from './Components/HooksComponents/UseStateExamples/StateWithHooks/StateWithHooks';
+import HandlePrevState from './Components/HooksComponents/UseStateExamples/HandlePrevState/HandlePrevState';
+import HandleStringState from './Components/HooksComponents/UseStateExamples/HandleStringState/HandleStringState';
+import StateAsObject from './Components/HooksComponents/UseStateExamples/StateAsObject/StateAsObject';
+import StateAsArray from './Components/HooksComponents/UseStateExamples/StateAsArray/StateAsArray';
 
 function App() {
   return (
@@ -42,7 +32,14 @@ function App() {
         <ListRenderingExample />
         <FromHandling /> 
         <GETExample /> 
-        <POSTExample /> */}
+        <POSTExample /> 
+        <StateWithClass />
+        <h3>*******************************************************</h3>
+        <StateWithHooks />
+        <HandlePrevState /> 
+        <HandleStringState /> 
+        <StateAsObject /> 
+        <StateAsArray /> */}
         
     </div>
   );
