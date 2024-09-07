@@ -13,6 +13,15 @@ import UseEffectOneTime from './Components/HooksComponents/UseEffectExaples/UseE
 import CleanUpWithUseEffect from './Components/HooksComponents/UseEffectExaples/CleanUpWithUseEffect/CleanUpWithUseEffect';
 import DealingWithAPI from './Components/HooksComponents/UseEffectExaples/DealingWithAPI/DealingWithAPI';
 import SearchPost from './Components/HooksComponents/UseEffectExaples/DealingWithAPI/SearchPost';
+import RefsClass from './Components/HooksComponents/UseRefExamples/ClassExample';
+import InputRef from './Components/HooksComponents/UseRefExamples/HooksExample';
+import ComponentC from './Components/HooksComponents/UseContextExample/ComponentC';
+import React from 'react';
+import SimpleExample from './Components/HooksComponents/UseReducerExamples/SimpleExample';
+import ComplexReducerEx from './Components/HooksComponents/UseReducerExamples/ComplexReducerEx';
+
+  export const UserContext = React.createContext();
+  export const PlaceContext= React.createContext()
 
 function App() {
   return (
@@ -52,8 +61,23 @@ function App() {
         <UseEffectConditionally />
         <UseEffectOneTime />
         <CleanUpWithUseEffect /> 
-        <DealingWithAPI /> */}
+        <DealingWithAPI /> 
         <SearchPost />
+        <RefsClass />  
+        <InputRef /> 
+        <UserContext.Provider value= {
+          {
+            name: "Creativa",
+            place: "Monufia"
+          }
+        }>
+          <PlaceContext.Provider value= {" Place context "}>
+            <ComponentC />
+          </PlaceContext.Provider>
+        </UserContext.Provider>
+        <SimpleExample />*/}
+        <ComplexReducerEx />
+        
     </div>
   );
 }
