@@ -6,6 +6,13 @@ import HandlePrevState from './Components/HooksComponents/UseStateExamples/Handl
 import HandleStringState from './Components/HooksComponents/UseStateExamples/HandleStringState/HandleStringState';
 import StateAsObject from './Components/HooksComponents/UseStateExamples/StateAsObject/StateAsObject';
 import StateAsArray from './Components/HooksComponents/UseStateExamples/StateAsArray/StateAsArray';
+import ClassExample from './Components/HooksComponents/UseEffectExaples/UseEffectVsClass/ClassExample';
+import UseEffectExample from './Components/HooksComponents/UseEffectExaples/UseEffectVsClass/UseEffectExample';
+import UseEffectConditionally from './Components/HooksComponents/UseEffectExaples/UseEffectContionally/UseEffectContionally';
+import UseEffectOneTime from './Components/HooksComponents/UseEffectExaples/UseEffectOneTime/UseEffectOneTime';
+import CleanUpWithUseEffect from './Components/HooksComponents/UseEffectExaples/CleanUpWithUseEffect/CleanUpWithUseEffect';
+import DealingWithAPI from './Components/HooksComponents/UseEffectExaples/DealingWithAPI/DealingWithAPI';
+import SearchPost from './Components/HooksComponents/UseEffectExaples/DealingWithAPI/SearchPost';
 
 function App() {
   return (
@@ -39,8 +46,14 @@ function App() {
         <HandlePrevState /> 
         <HandleStringState /> 
         <StateAsObject /> 
-        <StateAsArray /> */}
-        
+        <StateAsArray /> 
+        <ClassExample /> 
+        <UseEffectExample /> 
+        <UseEffectConditionally />
+        <UseEffectOneTime />
+        <CleanUpWithUseEffect /> 
+        <DealingWithAPI /> */}
+        <SearchPost />
     </div>
   );
 }
